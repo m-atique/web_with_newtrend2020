@@ -1,0 +1,26 @@
+.slide_txt {
+    font-size: 45px;
+    color: rgb(26, 26, 112);
+    margin: 10px;
+    animation: text 2s alternate;
+}
+
+@keyframes text {
+    0% {
+        transform: translateY(-20px)
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.slide_anchor {
+    font-size: 24px;
+    color: rgb(26, 26, 112);
+    margin: 30px 10px;
+    padding-bottom: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 7px;
+    width: fit-content;
+    border-bottom-color: #FDB811;
+}

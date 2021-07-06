@@ -1,0 +1,263 @@
+#wrapper{
+    width: 70%;
+    height: auto;
+
+}
+#girlface{
+    animation: girlface 4s infinite ;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes girlface{
+    0%{
+       transform: rotate(0deg);
+    }
+  
+   40%{
+    transform: rotate(8deg);
+   
+    }
+    41%{
+        transform: rotate(1deg);
+       
+        }
+    70%{
+        transform: rotate(-6deg);
+       
+        }
+    80%{
+        transform: rotate(0deg);
+    }
+    
+}
+
+#girl_eyeb{
+    animation: g_eyeb 4s  infinite  ;
+    transform-origin: bottom;
+    transform-box: fill-box;
+    
+}
+@keyframes g_eyeb{
+    0%{
+       transform: translatey(0)
+    }
+  
+   40%{
+    transform: translatey(4px)
+   
+    }
+   
+    70%{
+        transform: translatey(-3px)
+       
+        }
+      
+}
+#girleye{
+    animation: g_eye 4s  infinite  ;
+    transform-box: fill-box;
+    
+}
+@keyframes g_eye{
+    0%{
+       transform: translatey(0)
+    }
+    35%{
+        opacity: 1;
+       
+        }
+   40%{
+    opacity: 0;
+   
+    }
+    42%{
+        opacity: 1;
+       
+        }
+   
+   
+}
+/* -----------girl smile */
+#girlsmile{
+        animation: girlsmile 4s infinite ;
+        transform-origin: center;
+        transform-box: fill-box;
+    }
+    
+    @keyframes girlsmile{
+        0%{
+            opacity: 0;
+         }
+       
+        10%{
+         opacity: 1;
+        
+         }
+         15%{
+             opacity: 0;
+            
+             }
+         250%{
+             opacity: 1;
+             }
+         40%{
+             opacity: 0;
+         }
+         60%{
+             opacity: 1;
+             }
+         80%{
+             opacity: 0;
+         }
+    }
+
+    #girllip{
+        animation: girllip 4s infinite ;
+        transform-origin: center;
+        transform-box: fill-box;
+    }
+    
+    @keyframes girllip{
+        0%{
+           opacity: 1;
+        }
+      
+       10%{
+        opacity: 0;
+       
+        }
+        15%{
+            opacity: 1;
+           
+            }
+        20%{
+            opacity: 0;
+            }
+        40%{
+            opacity: 1;
+        }
+        60%{
+            opacity: 0;
+            }
+        80%{
+            opacity: 1;
+        }
+        
+    }
+
+
+
+
+/* ------------------------ */
+
+
+#girlarm{
+    animation: girlarm 2s  infinite  ;
+    transform-origin: right;
+    transform-box: fill-box;
+    
+}
+
+@keyframes girlarm{
+    0%{
+       transform: rotate(0deg);
+    }
+  
+   40%{
+    transform: rotate(10deg);
+   
+    }
+    
+    70%{
+        transform: rotate(-5deg);
+       
+        }
+    
+    
+}
+#s_maleface{
+    animation: maleface 5s  infinite  ;
+    transform-origin: bottom;
+    transform-box: fill-box;
+    
+}
+
+@keyframes maleface{
+    0%{
+       transform: rotate(0deg);
+    }
+  
+   20%{
+    transform: rotate(10deg);
+   
+    }
+    25%{
+        transform: rotate(-1deg);
+    }  
+}
+#s_maleface_eye{
+    animation: maleface_eye 5s  infinite  ;
+    transform-origin: bottom;
+    transform-box: fill-box;
+    
+}
+
+@keyframes maleface_eye{
+    
+   15%{
+       opacity: 1;
+   }
+   20%{
+    opacity:0;
+   
+    }
+    21%{
+       opacity: 1;
+    }  
+}
+
+
+
+#seated_maleface{
+    animation: s_maleface 4s  infinite ease-in-out  ;
+    transform-origin: bottom;
+    transform-box: fill-box;
+    
+}
+
+@keyframes s_maleface{
+  0%{
+       transform: rotate(0deg);
+    }
+    30%{
+        transform: rotate(-10deg);
+     }
+   70%{
+    transform: rotate(3deg);
+   
+    }
+    95%{
+        transform: rotate(-5deg);
+    }  
+}
+
+#seated_male_arm{
+    animation: s_maleface 7s  infinite  ;
+    transform-origin: bottom;
+    transform-box: fill-box;
+    
+}
+
+@keyframes s_maleface{
+    10%{
+       transform: rotate(-5deg);
+    }
+  
+  
+    45%{
+        transform: rotate(-1deg);
+    }  
+}
+
+
